@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý sách</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Quản lý sách</h1>
+
+      <div class="add-book">
+        <input type="text" placeholder="Nhập tên sách" id="book-input" />
+        <button id="add-book-btn">Thêm sách</button>
+      </div>
+
+      <ul id="book-list" class="book-list">
+        <!-- Danh sách sách sẽ hiển thị ở đây -->
+      </ul>
+
+      <div class="filter-book">
+        <input type="text" placeholder="Tìm kiếm sách..." id="filter-input" />
+        <button id="Search-book-btn">Tìm kiếm sách</button>
+        <button id="clear-search-btn">Huỷ tìm</button>
+      </div>
+
+      <p id="result-count"></p>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
